@@ -1,6 +1,5 @@
-# Virtual environment
 .venv/
-env.py/
-
-
+env.py
+*.pyc
 __pycache__/
+blog/fixtures/
