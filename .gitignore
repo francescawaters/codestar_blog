@@ -1,3 +1,37 @@
+# Virtual environment
 .venv/
 env.py/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# VS Code specific
+.vscode/
+
+# PyCharm specific
+.idea/
+
+# Environment variables
+.env
+
+# Static files
+staticfiles/
+
+# Local settings
+local_settings.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Migrations
+*/migrations/*
+
+# Fixtures
 blog/fixtures/
